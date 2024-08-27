@@ -1,0 +1,23 @@
+.authContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.authBg {
+  background-image: url("../../assets/images/auth-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.authForm {
+  padding: 2rem;
+  max-width: 400px;
+  margin: auto;
+  width: 100%;
+}

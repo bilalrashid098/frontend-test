@@ -1,0 +1,77 @@
+:root {
+  --fontSize: 16px;
+}
+
+html,
+body {
+  font-size: var(--fontSize);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1b1b1b;
+  color: #ffffff;
+}
+
+input::placeholder {
+  color: #ffffff;
+  opacity: 1; /* Firefox */
+}
+
+textarea::placeholder {
+  color: #ffffff;
+  opacity: 1; /* Firefox */
+}
+
+input::-ms-input-placeholder {
+  /* Edge 12 -18 */
+  color: #ffffff;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.text-md {
+  font-size: 0.9rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #ffffff;
+}
+
+.modal-content {
+  background-color: #1b1b1b;
+}
+
+.placeholderImg {
+  background-color: #6e7174;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 2rem;
+  overflow: hidden;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.avatarPlaceholder {
+  background-color: #6e7174;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

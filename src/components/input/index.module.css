@@ -1,0 +1,20 @@
+.input {
+  background-color: transparent;
+  border-radius: 0.25rem;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.input:focus {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  box-shadow: none;
+  outline: 0;
+}
+
+.inputError {
+  font-size: 0.85rem;
+  color: #cf0000;
+  font-weight: 600;
+}

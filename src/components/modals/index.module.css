@@ -1,0 +1,14 @@
+.modalBody h4 {
+  padding-right: 3.125rem;
+}
+
+.closeBtn {
+  cursor: pointer;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+}
+
+.modalWrapper > div {
+  max-width: 500px;
+}

@@ -1,0 +1,12 @@
+.cardImage {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 2rem;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.card {
+  border-radius: 1.3rem;
+  margin-bottom: 2rem;
+}
